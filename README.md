@@ -51,4 +51,4 @@
 
 ## Other
 
-- 	This project was conducted as an experiment. The author takes no responsibility for how this code is used. It is provided "as-is" without any guarantees or warranties. Users should be aware that the methods employed may not be the most efficient or best practices. Use this application at your own risk. For any questions, reports and details please feel free to contact the offical github https://github.com/llamalordsofscience
+- 	This project was conducted as an experiment. The author takes no responsibility for how this code is used. It is provided "as-is" without any guarantees or warranties. Users should be aware that the methods employed may not be the most efficient or best practices. Use this application at your own risk. For any questions, reports and details please feel free to contact the official github https://github.com/llamalordsofscience
