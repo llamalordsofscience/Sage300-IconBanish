@@ -36,7 +36,7 @@
 
 ## References
 
--   **Sage 300 Buttons**: Contains the logic and default layout of controls.
+-   **Sage 300 Buttons**: Are custom controls built on .NET Framework 4.8
 -   **Costura**: Used for compiling references into a single executable.
 
 ## Tips/Notes
