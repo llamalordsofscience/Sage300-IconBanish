@@ -1360,7 +1360,7 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        MsgBox("WARNING USE THIS APPLICATION AT YOUR OWN RISK: Please read the about and help tabs for more information.")
+        MsgBox("WARNING: Please read the README.md file as well as the help and about information.")
 
         GUI_Setup()
 
@@ -2792,7 +2792,6 @@ Public Class HelpAboutForm
         "Disabling an icon does not remove its functionality within Sage 300. The UI should be used to hide buttons and sections to prevent access to outdated OCX module screen controls.",
         "Backups can be viewed in the hidden folder created during the initial run. Ensure administrative permissions are granted to the application to facilitate folder and backup creation. If the Sage 300 runtime directory varies from the registry location, use the manual option or repair menu to select the correct directory. Re-enter the Sage 300 version (e.g., 70A) and specify the folder locations (e.g., C:\Sage\Sage300).",
         "The application can function independently of the Sage 300 platform.",
-        "Ensure no other versions or instances of the application are running simultaneously. Do not delete the wayback folder after creation. Use the repair option to reset the folder or create fresh backups for new Sage 300 versions or upgrades. Re-edit the icons to disable them post-upgrade. If all else fails, deleting the wayback folder will reset the application to its initial state, necessitating the creation of new backups and re-selection of the correct version number. Incorrect version selection may require Sage 300 reinstallation to resolve issues.",
         "To remove visual process flows, rename the template folder within the Sage 300 runtime directory.",
         "Disabling an icon affects all companies regardless of which company is currently logged in.",
         "In rare instances where the UI fails to refresh and load correctly, close Sage 300 or use ALT + F4 to exit.",
