@@ -2058,27 +2058,27 @@ Public Class Form1
 
         '  Sage300_CustomPanel1.ToggleMenuItemVisibility("Edit", False)
         Sage300_CustomPanel1.RenameMenuItem("Edit", "Help")
-            Sage300_CustomPanel1.RenameMenuItem("View", "Setup")
-            Sage300_CustomPanel1.RenameMenuItem("New", "Launch Repair")
-            Sage300_CustomPanel1.RenameMenuItem("Help", "Update")
-            Sage300_CustomPanel1.RenameMenuItem("Exit", "About")
-            TextBox3.BackColor = Sage300_CustomPanel1.SageOuterColor
-            ' Initialize DataTables with the same structure
+        Sage300_CustomPanel1.RenameMenuItem("View", "Setup")
+        Sage300_CustomPanel1.RenameMenuItem("New", "Launch Repair")
+        Sage300_CustomPanel1.RenameMenuItem("Help", "Update")
+        Sage300_CustomPanel1.RenameMenuItem("Exit", "About")
+        TextBox3.BackColor = Sage300_CustomPanel1.SageOuterColor
+        ' Initialize DataTables with the same structure
 
-            sourceDataTable.Columns.Add("Active Sage Icons", GetType(String))
-            targetDataTable.Columns.Add("Active Sage Icons", GetType(String))
+        sourceDataTable.Columns.Add("Active Sage Icons", GetType(String))
+        targetDataTable.Columns.Add("Active Sage Icons", GetType(String))
 
-            ' Set DataSource of DataGridView controls
-            Sage300DataGridView1.DataSource = sourceDataTable
-            Sage300DataGridView2.DataSource = targetDataTable
+        ' Set DataSource of DataGridView controls
+        Sage300DataGridView1.DataSource = sourceDataTable
+        Sage300DataGridView2.DataSource = targetDataTable
 
-            ' Pervents user from sorting the columns/rows {fixes bug}
-            For Each column As DataGridViewColumn In Sage300DataGridView1.Columns
-                column.SortMode = DataGridViewColumnSortMode.NotSortable
-            Next
-            For Each column As DataGridViewColumn In Sage300DataGridView2.Columns
-                column.SortMode = DataGridViewColumnSortMode.NotSortable
-            Next
+        ' Pervents user from sorting the columns/rows {fixes bug}
+        For Each column As DataGridViewColumn In Sage300DataGridView1.Columns
+            column.SortMode = DataGridViewColumnSortMode.NotSortable
+        Next
+        For Each column As DataGridViewColumn In Sage300DataGridView2.Columns
+            column.SortMode = DataGridViewColumnSortMode.NotSortable
+        Next
 
     End Sub 'sets the theme and look and flow for the UI Control form. the rest can be found on the disgn. 
     Private Function setHeaderData(CurrentIndex As Integer) As String
@@ -2686,11 +2686,6 @@ Public Class Form1
             MsgBox("Reset All Compeleted.")
         End If
     End Sub
-
-    Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
-
-    End Sub
-
 End Class
 
 Public Class HelpAboutForm
