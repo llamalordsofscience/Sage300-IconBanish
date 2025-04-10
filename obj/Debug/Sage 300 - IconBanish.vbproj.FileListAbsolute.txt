@@ -22,3 +22,4 @@ E:\07_Progamming\Sage300-IconBanish\bin\Debug\IconBanish.exe
 E:\07_Progamming\Sage300-IconBanish\bin\Debug\IconBanish.pdb
 E:\07_Progamming\Sage300-IconBanish\obj\Debug\IconBanish.exe
 E:\07_Progamming\Sage300-IconBanish\obj\Debug\IconBanish.pdb
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage 300 - IconBanish.vbproj.AssemblyReference.cache
