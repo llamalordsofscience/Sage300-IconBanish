@@ -11,3 +11,16 @@ E:\07_Progamming\Sage 300 - IconBanish - git\obj\Debug\Sage 300 - IconBanish.vbp
 E:\07_Progamming\Sage 300 - IconBanish - git\obj\Debug\Sage 300 - IconBanish.vbproj.Fody.RuntimeCopyLocal.cache
 E:\07_Progamming\Sage 300 - IconBanish - git\obj\Debug\Sage 300 - IconBanish.exe
 E:\07_Progamming\Sage 300 - IconBanish - git\obj\Debug\Sage 300 - IconBanish.pdb
+E:\07_Progamming\Sage300-IconBanish\bin\Debug\Sage 300 - IconBanish.exe
+E:\07_Progamming\Sage300-IconBanish\bin\Debug\Sage 300 - IconBanish.pdb
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage 300 - IconBanish.vbproj.AssemblyReference.cache
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Interop.LocResources.dll
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage 300 - IconBanish.vbproj.ResolveComReference.cache
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage_300___IconBanish.Form1.resources
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage_300___IconBanish.Resources.resources
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage 300 - IconBanish.vbproj.GenerateResource.cache
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage 300 - IconBanish.vbproj.CoreCompileInputs.cache
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage 300 - IconBanish.vbproj.Fody.CopyLocal.cache
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage 300 - IconBanish.vbproj.Fody.RuntimeCopyLocal.cache
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage 300 - IconBanish.exe
+E:\07_Progamming\Sage300-IconBanish\obj\Debug\Sage 300 - IconBanish.pdb
