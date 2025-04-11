@@ -22,14 +22,14 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle61 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle62 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle63 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle64 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle57 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle58 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle59 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle60 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Sage300_CustomPanel1 = New Sage_300_Buttons.Sage300_CustomPanel()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -63,6 +63,22 @@ Partial Class Form1
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.Sage300_CustomPanel1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.Sage300DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -98,11 +114,11 @@ Partial Class Form1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(236, Byte), Integer))
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.Button6)
         Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Controls.Add(Me.Sage300DataGridView2)
         Me.Panel1.Controls.Add(Me.Sage300DataGridView1)
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.LastRecordButton1)
@@ -161,37 +177,37 @@ Partial Class Form1
         '
         'Sage300DataGridView2
         '
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Sage300DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle61.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Sage300DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle61
         Me.Sage300DataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.Sage300DataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(236, Byte), Integer))
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(CType(CType(88, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(105, Byte), Integer))
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Sage300DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle62.BackColor = System.Drawing.Color.FromArgb(CType(CType(88, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(105, Byte), Integer))
+        DataGridViewCellStyle62.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle62.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Sage300DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle62
         Me.Sage300DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Arial", 8.25!)
-        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(40, Byte), Integer))
-        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Sage300DataGridView2.DefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle63.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle63.Font = New System.Drawing.Font("Arial", 8.25!)
+        DataGridViewCellStyle63.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(40, Byte), Integer))
+        DataGridViewCellStyle63.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle63.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Sage300DataGridView2.DefaultCellStyle = DataGridViewCellStyle63
         Me.Sage300DataGridView2.EnableHeadersVisualStyles = False
-        Me.Sage300DataGridView2.Location = New System.Drawing.Point(232, 144)
+        Me.Sage300DataGridView2.Location = New System.Drawing.Point(225, 14)
         Me.Sage300DataGridView2.Name = "Sage300DataGridView2"
         Me.Sage300DataGridView2.ReadOnly = True
         Me.Sage300DataGridView2.RowHeadersVisible = False
-        DataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(236, Byte), Integer))
-        Me.Sage300DataGridView2.RowsDefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle64.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(236, Byte), Integer))
+        Me.Sage300DataGridView2.RowsDefaultCellStyle = DataGridViewCellStyle64
         Me.Sage300DataGridView2.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.Sage300DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.Sage300DataGridView2.Size = New System.Drawing.Size(152, 210)
+        Me.Sage300DataGridView2.Size = New System.Drawing.Size(161, 210)
         Me.Sage300DataGridView2.TabIndex = 16
         '
         'Sage300DataGridView1
@@ -200,34 +216,34 @@ Partial Class Form1
         Me.Sage300DataGridView1.AllowUserToDeleteRows = False
         Me.Sage300DataGridView1.AllowUserToResizeColumns = False
         Me.Sage300DataGridView1.AllowUserToResizeRows = False
-        DataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Sage300DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle57.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.Sage300DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle57
         Me.Sage300DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.Sage300DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(236, Byte), Integer))
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(CType(CType(88, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(105, Byte), Integer))
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Sage300DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle58.BackColor = System.Drawing.Color.FromArgb(CType(CType(88, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(105, Byte), Integer))
+        DataGridViewCellStyle58.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle58.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle58.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle58.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Sage300DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle58
         Me.Sage300DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial", 8.25!)
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(40, Byte), Integer))
-        DataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Sage300DataGridView1.DefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle59.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        DataGridViewCellStyle59.Font = New System.Drawing.Font("Arial", 8.25!)
+        DataGridViewCellStyle59.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle59.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(40, Byte), Integer))
+        DataGridViewCellStyle59.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle59.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Sage300DataGridView1.DefaultCellStyle = DataGridViewCellStyle59
         Me.Sage300DataGridView1.EnableHeadersVisualStyles = False
         Me.Sage300DataGridView1.Location = New System.Drawing.Point(25, 144)
         Me.Sage300DataGridView1.Name = "Sage300DataGridView1"
         Me.Sage300DataGridView1.ReadOnly = True
         Me.Sage300DataGridView1.RowHeadersVisible = False
-        DataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(236, Byte), Integer))
-        Me.Sage300DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle60.BackColor = System.Drawing.Color.FromArgb(CType(CType(230, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(236, Byte), Integer))
+        Me.Sage300DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle60
         Me.Sage300DataGridView1.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.Sage300DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.Sage300DataGridView1.Size = New System.Drawing.Size(152, 210)
@@ -416,6 +432,22 @@ Partial Class Form1
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Button7)
+        Me.GroupBox2.Controls.Add(Me.RadioButton2)
+        Me.GroupBox2.Controls.Add(Me.RadioButton1)
+        Me.GroupBox2.Controls.Add(Me.TextBox9)
+        Me.GroupBox2.Controls.Add(Me.Label16)
+        Me.GroupBox2.Controls.Add(Me.Label15)
+        Me.GroupBox2.Controls.Add(Me.TextBox8)
+        Me.GroupBox2.Controls.Add(Me.Label14)
+        Me.GroupBox2.Controls.Add(Me.TextBox7)
+        Me.GroupBox2.Controls.Add(Me.Label13)
+        Me.GroupBox2.Controls.Add(Me.Sage300DataGridView2)
+        Me.GroupBox2.Controls.Add(Me.TextBox6)
+        Me.GroupBox2.Controls.Add(Me.Label12)
+        Me.GroupBox2.Controls.Add(Me.TextBox5)
+        Me.GroupBox2.Controls.Add(Me.Label10)
+        Me.GroupBox2.Controls.Add(Me.TextBox4)
         Me.GroupBox2.Controls.Add(Me.Label9)
         Me.GroupBox2.Controls.Add(Me.Button1)
         Me.GroupBox2.Controls.Add(Me.Label8)
@@ -483,6 +515,168 @@ Partial Class Form1
         Me.TextBox3.TabIndex = 24
         Me.TextBox3.Text = "XXX"
         '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(189, 32)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(102, 20)
+        Me.TextBox4.TabIndex = 26
+        Me.TextBox4.Text = "XX"
+        Me.TextBox4.Visible = False
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(186, 13)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(76, 13)
+        Me.Label10.TabIndex = 26
+        Me.Label10.Text = "PROGRAM ID"
+        Me.Label10.Visible = False
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(188, 71)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.ReadOnly = True
+        Me.TextBox5.Size = New System.Drawing.Size(133, 20)
+        Me.TextBox5.TabIndex = 27
+        Me.TextBox5.Text = "N/A"
+        Me.TextBox5.Visible = False
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(186, 55)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(51, 13)
+        Me.Label12.TabIndex = 28
+        Me.Label12.Text = "PARENT"
+        Me.Label12.Visible = False
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(189, 108)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(172, 20)
+        Me.TextBox6.TabIndex = 29
+        Me.TextBox6.Text = "test ojbect key"
+        Me.TextBox6.Visible = False
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(186, 93)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(80, 13)
+        Me.Label13.TabIndex = 30
+        Me.Label13.Text = "DESCRIPTION"
+        Me.Label13.Visible = False
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(188, 148)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(198, 20)
+        Me.TextBox7.TabIndex = 31
+        Me.TextBox7.Text = "C:\Sage\IconBanish.exe"
+        Me.TextBox7.Visible = False
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(186, 131)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(55, 13)
+        Me.Label14.TabIndex = 32
+        Me.Label14.Text = "CMDLINE"
+        Me.Label14.Visible = False
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(309, 32)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(77, 20)
+        Me.TextBox8.TabIndex = 33
+        Me.TextBox8.Text = "XXSDK"
+        Me.TextBox8.Visible = False
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Location = New System.Drawing.Point(307, 16)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(29, 13)
+        Me.Label15.TabIndex = 34
+        Me.Label15.Text = "RSC"
+        Me.Label15.Visible = False
+        '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.Location = New System.Drawing.Point(186, 172)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(47, 13)
+        Me.Label16.TabIndex = 35
+        Me.Label16.Text = "INSERT"
+        Me.Label16.Visible = False
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Location = New System.Drawing.Point(189, 188)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(109, 20)
+        Me.TextBox9.TabIndex = 36
+        Me.TextBox9.Visible = False
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(189, 208)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(56, 17)
+        Me.RadioButton1.TabIndex = 37
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Before"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RadioButton1.Visible = False
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(251, 208)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(47, 17)
+        Me.RadioButton2.TabIndex = 38
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "After"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RadioButton2.Visible = False
+        '
+        'Button6
+        '
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button6.Location = New System.Drawing.Point(235, 372)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(81, 21)
+        Me.Button6.TabIndex = 26
+        Me.Button6.Text = "Insert Prog."
+        Me.Button6.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button6.UseVisualStyleBackColor = True
+        Me.Button6.Visible = False
+        '
+        'Button7
+        '
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button7.Location = New System.Drawing.Point(304, 188)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(78, 20)
+        Me.Button7.TabIndex = 27
+        Me.Button7.Text = "Add Location"
+        Me.Button7.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Button7.UseVisualStyleBackColor = True
+        Me.Button7.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -542,4 +736,20 @@ Partial Class Form1
     Friend WithEvents Label11 As Label
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Button4 As Button
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label15 As Label
+    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents Label14 As Label
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Button6 As Button
+    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents Button7 As Button
 End Class
